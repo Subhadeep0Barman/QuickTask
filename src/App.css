@@ -1,0 +1,160 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #e0e0e0;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.todo-container h2 {
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.todo-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.todo-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #333;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-delete {
+  background-color: #000;
+}
+
+.btn-delete:hover {
+  background-color: #111;
+}
+
+.btn-done {
+  background-color: #1a1a1a;
+}
+
+.btn-done:hover {
+  background-color: #333;
+}
+
+.btn-add {
+  background-color: #000;
+}
+
+.btn-add:hover {
+  background-color: #111;
+}
+
+.add-form-container {
+  margin-bottom: 2rem;
+}
+
+.no-tasks-message {
+  color: #888;
+  font-style: italic;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-delete-all {
+  background-color: #ff4d4d;
+  margin-top: 1rem;
+}
+
+.btn-delete-all:hover {
+  background-color: #ff6666;
+}
+
+.btn-mark-all-done {
+  background-color: #4caf50;
+  margin-top: 1rem;
+}
+
+.btn-mark-all-done:hover {
+  background-color: #66bb6a;
+}
