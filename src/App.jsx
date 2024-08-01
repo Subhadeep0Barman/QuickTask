@@ -8,7 +8,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="header">
-        <h1>Quick Task</h1>
+        <h1>QuickTask</h1>
       </div>
       <Todo />
     </Provider>
